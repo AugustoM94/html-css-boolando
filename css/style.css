@@ -22,7 +22,7 @@ header {
     background-color: var(--color-header);
 }
 
- 
+
 .header-size {
     width: 100%;
 }
@@ -58,3 +58,47 @@ header {
      display: flex;
      flex-direction: row
     }
+
+    /* main */
+.card-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+}
+.card {
+        width: calc(100% / 3); 
+        padding-top: 20px;
+        padding-bottom: 50px;
+        min-width: 300px;
+        padding-right: 5px;
+        position: relative;
+}
+
+img {
+    width: 100%;
+
+}
+.discount-red { 
+    background-color: var(--color-discount);
+    position: relative;
+    left: 0;
+    bottom: 70px;
+    padding: 2px;
+    display: inline-block;
+}
+.discount-green {
+    background-color: var(--color-sostenibilità);
+    position: relative;
+    left:0;
+    bottom: 70px;
+    padding: 2px;
+}
+.Heart {
+    position: absolute;
+    top:3px;
+    right: 0;
+/*     background-color: var(--color-primary);
+ */    font-size: 1.5em;
+}
