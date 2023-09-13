@@ -118,3 +118,21 @@ h4, h5 {
 .link-footer {
     font-size: 0.8em;
 }
+/* bonus */
+.card-content:hover .img-primary {
+    display: none;
+}
+.img-secondary .discount-green .discount-red .Heart{
+    display: none;
+}
+.card-content:hover .img-secondary {
+    display: block;
+    cursor: pointer;
+}
+.img-secondary {
+    display: none;
+}
+.Heart:hover {
+    color: var(--color-discount);
+    cursor: pointer;
+}
