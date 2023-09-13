@@ -82,23 +82,25 @@ img {
 }
 .discount-red { 
     background-color: var(--color-discount);
-    position: relative;
+    position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 80px;
     padding: 2px;
     display: inline-block;
 }
 .discount-green {
     background-color: var(--color-sostenibilità);
-    position: relative;
-    left:0;
-    bottom: 70px;
+    position: absolute;
+    left:45px;
+    bottom: 80px;
     padding: 2px;
 }
 .Heart {
     position: absolute;
-    top:3px;
-    right: 0;
-/*     background-color: var(--color-primary);
- */    font-size: 1.5em;
+    top:30px;
+    right: 5px;
+    background-color: var(--color-primary);
+   font-size: 1.8em;
+   width: 8%;
+   text-align: center;
 }
