@@ -141,7 +141,7 @@ h4, h5 {
 .card-content:hover .img-primary {
     display: none;
 }
-.img-secondary .discount-green .discount-red .Heart{
+.img-secondary {
     display: none;
 }
 .card-content:hover .img-secondary {
