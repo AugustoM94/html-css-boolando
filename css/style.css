@@ -22,14 +22,8 @@ header {
     background-color: var(--color-header);
 }
 
-
-.header-size {
-    width: 100%;
-}
-
 .logo {
-    width: 20%;
-    margin-left: 300px;
+    width: 150px;
     padding-top: 5px;
  }
  a {
@@ -47,17 +41,14 @@ header {
 /* flex */
 .d-flex {
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    align-content: space-between;
-}
+ }
 .f-center{
     justify-content: center;
     }
-.r-flex {
-     display: flex;
-     flex-direction: row
-    }
+
 
     /* main */
 .card-wrapper{
@@ -70,7 +61,7 @@ header {
 .card {
         width: calc(100% / 3); 
         padding-top: 20px;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
         min-width: 300px;
         padding-right: 5px;
         position: relative;
@@ -84,15 +75,24 @@ img {
     background-color: var(--color-discount);
     position: absolute;
     left: 0;
-    bottom: 80px;
+    bottom: 150px;
     padding: 2px;
     display: inline-block;
+    color: var(--color-primary);
+    width: 10%;
 }
 .discount-green {
     background-color: var(--color-sostenibilità);
     position: absolute;
     left:45px;
-    bottom: 80px;
+    bottom: 150px;
+    padding: 2px;
+}
+.discount-green-last {
+    background-color: var(--color-sostenibilità);
+    position: absolute;
+    left:0px;
+    bottom: 150px;
     padding: 2px;
 }
 .Heart {
@@ -103,6 +103,17 @@ img {
    font-size: 1.8em;
    width: 8%;
    text-align: center;
+}
+.nome-t-shirt {
+    color: var(--color-text);
+    padding: 2px 0;
+}
+.costo-red{
+    color: var(--color-discount);
+}
+.costo {
+    text-decoration: line-through;
+
 }
 /* footer */
 footer {
